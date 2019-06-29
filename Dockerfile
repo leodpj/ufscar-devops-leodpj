@@ -1,0 +1,6 @@
+FROM alpine
+LABEL maintainer="LeonardoJesus leodpj@gmail.com"
+RUN ls
+ADD help.txt /var/opt/help.ls
+RUN ls /var/opt
+RUN cat /var/opt/help.ls 
